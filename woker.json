@@ -1,0 +1,15 @@
+{
+    "apps": [
+        {
+            "name": "swoole",
+            "script": "server.php",
+            "exec_mode": "fork",
+            "instances": 1,
+            "interpreter": "php",
+            "watch": [
+                "./src"
+            ],
+            "args": []
+        }
+    ]
+} 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Welcome</h1>
+
+
+    <script>
+        if ("WebSocket" in window) {
+            const ws = new WebSocket("ws://127.0.0.1:9501");
+            ws.onopen = function () {
+                // Web Socket is connected, send data using send()
+                ws.send("Message to send");
+                // alert("Message is sent...");
+            };
+        }
+    </script>
+</body>
+
+</html>

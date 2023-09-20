@@ -1,0 +1,16 @@
+{
+    "name": "dungnt/open-swoole",
+    "autoload": {
+        "psr-4": {
+            "Dungnt\\OpenSwoole\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dungnt"
+        }
+    ],
+    "require": {
+        "openswoole/core": "^22.1"
+    }
+}
